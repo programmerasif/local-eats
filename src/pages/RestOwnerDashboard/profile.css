@@ -1,0 +1,7 @@
+.coverImg{ 
+    
+        background-image:linear-gradient(#0000003d, #00000056), url('../../assets/resBg.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 45vh; 
+}

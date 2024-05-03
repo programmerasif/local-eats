@@ -1,0 +1,14 @@
+.bgImg{
+    background-image: url('../../assets/bgimage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.restImg{
+    background-image: url('../../assets/resturant.png');
+    background-repeat: no-repeat;
+    height: 35vh;
+    background-size: cover;
+    width: 91%;
+    
+}

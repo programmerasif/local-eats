@@ -1,0 +1,20 @@
+/* .cvrImg {
+    background-image: linear-gradient(#cdcaca3d, #d3d3d356), url('../../assets/rawPage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: screen;
+} */
+
+.cvrImg {
+    background-image: linear-gradient(#cdcaca3d, #d3d3d356), url('../../assets/rawPage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    /* max-height: max-content; */
+
+    /* Media query for small devices */
+    @media only screen and (max-width: 767px) {
+        height: fit-content; /* Set height to screen height for small devices */
+    }
+}
